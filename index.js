@@ -84,8 +84,6 @@ function doneListTask(selecterId){
   el= document.getElementById(selecterId)
   // Add new class for description
   el.classList.toggle('item_description_done')
-  //Add new class for done button
-  el.children[0].classList.add('item_done_btn')
 }
 
 //App Controller
