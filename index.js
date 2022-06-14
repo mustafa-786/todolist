@@ -128,8 +128,8 @@ function ctlrDeleteTask(event){
 }
 DOMStrings.addBtn.addEventListener('click',ctrlAddTask)
 
-document.addEventListener('keypress',function(event){
-  if(event.key===13 || event.which===13){
+document.addEventListener("keyup",function(event){
+  if(event.key === 'Enter'){
     ctrlAddTask()
   }
 })
